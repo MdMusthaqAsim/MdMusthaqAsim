@@ -29,32 +29,36 @@ I build self-hosted microservices for fun and keep turning a hobby project into 
 
 </div>
 
-<br>
+---
 
 ## Projects
 
-### Re:muria
-> Companion app for Honkai: Star Rail, live at [remuria.net](https://remuria.net)
+![Re:muria](https://capsule-render.vercel.app/api?type=rounded&color=6C5CE7&height=100&section=header&text=Re%3Amuria&fontSize=32&fontColor=ffffff&fontAlign=12&fontAlignY=38)
+
+[![Live at remuria.net](https://img.shields.io/badge/Live-remuria.net-6C5CE7?style=for-the-badge)](https://remuria.net)
+
+Companion app for Honkai: Star Rail.
 
 - Look up any UID to see character stats, relic builds and rankings
 - A small microservices setup: a gateway with Discord login, a game data backend, a translation service, and a discovery and admin layer built on Netflix Eureka
 - Data spread across MongoDB, Neo4j and Redis, containerized and self-hosted across two nodes for redundancy and backups
 
-| Repo | Role |
-|---|---|
-| [Aquila](https://github.com/Amphorous/Aquila) | API gateway + Discord login |
-| [Delta-me13](https://github.com/Amphorous/Delta-me13) | Game data backend |
-| [Delphi](https://github.com/Amphorous/Delphi) | Service discovery + deploy hub |
-| [CelestiaAdmin](https://github.com/Amphorous/CelestiaAdmin) | Monitoring dashboard |
-| [Translator](https://github.com/Amphorous/Translator) | Localization service |
-| [Delta-me13-Frontend](https://github.com/Amphorous/Delta-me13-Frontend) | React frontend |
+[![Aquila](https://img.shields.io/badge/Aquila-gateway-6C5CE7?style=flat-square&logo=github&logoColor=white)](https://github.com/Amphorous/Aquila)
+[![Delta-me13](https://img.shields.io/badge/Delta--me13-backend-6C5CE7?style=flat-square&logo=github&logoColor=white)](https://github.com/Amphorous/Delta-me13)
+[![Delphi](https://img.shields.io/badge/Delphi-discovery-6C5CE7?style=flat-square&logo=github&logoColor=white)](https://github.com/Amphorous/Delphi)
+[![CelestiaAdmin](https://img.shields.io/badge/CelestiaAdmin-monitoring-6C5CE7?style=flat-square&logo=github&logoColor=white)](https://github.com/Amphorous/CelestiaAdmin)
+[![Translator](https://img.shields.io/badge/Translator-localization-6C5CE7?style=flat-square&logo=github&logoColor=white)](https://github.com/Amphorous/Translator)
+[![Delta-me13-Frontend](https://img.shields.io/badge/Delta--me13--Frontend-frontend-6C5CE7?style=flat-square&logo=github&logoColor=white)](https://github.com/Amphorous/Delta-me13-Frontend)
 
 **Stack:** `Java` `Spring Boot` `Spring Cloud Gateway` `Netflix Eureka` `React` `Redux` `MongoDB` `Neo4j` `Redis` `Docker` `nginx` `GitHub Actions`
 
-### zandar-env
-> Local AI coding copilot I built to help develop Re:muria
+<br>
 
-**Repo:** [MdMusthaqAsim/zandar-env](https://github.com/MdMusthaqAsim/zandar-env)
+![zandar-env](https://capsule-render.vercel.app/api?type=rounded&color=0984E3&height=100&section=header&text=zandar-env&fontSize=32&fontColor=ffffff&fontAlign=12&fontAlignY=38)
+
+[![View Repo](https://img.shields.io/badge/Repo-GitHub-0984E3?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MdMusthaqAsim/zandar-env)
+
+Local AI coding copilot I built to help develop Re:muria.
 
 - Ingests all of Re:muria's repos into a vector store, chunked and tagged by file and service
 - Runs as a multi-mode LangGraph agent: a debugging mode that traces issues across services, a builder mode that writes code, and a general Q&A mode
