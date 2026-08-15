@@ -12,6 +12,7 @@ I build self-hosted microservices for fun and keep turning a hobby project into 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
 ![Spring Cloud](https://img.shields.io/badge/Spring%20Cloud-6DB33F?style=flat-square&logo=spring&logoColor=white)
+![Netflix Eureka](https://img.shields.io/badge/Netflix%20Eureka-E50914?style=flat-square&logo=netflix&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
 ![Redux](https://img.shields.io/badge/Redux-764ABC?style=flat-square&logo=redux&logoColor=white)
@@ -26,15 +27,30 @@ I build self-hosted microservices for fun and keep turning a hobby project into 
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
 ![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white)
 
+</div>
+
 <br>
 
-### What I'm building: Re:muria
+## Projects
 
-- A companion app for **Honkai: Star Rail**, look up any UID to see character stats, relic builds and rankings
-- Runs as a small set of microservices: a gateway with Discord login, a game data backend, a translation service, and a discovery and admin layer
-- Data spread across MongoDB, Neo4j and Redis, all containerized and self-hosted across two nodes for redundancy and backups
-- Also wrote my own local AI coding copilot, using LangChain, LangGraph and Ollama, to help build the rest of it
+### Re:muria
+> Companion app for Honkai: Star Rail
 
-`Java` `Spring Boot` `Spring Cloud Gateway` `React` `Redux` `MongoDB` `Neo4j` `Redis` `Docker` `nginx` `GitHub Actions` `LangChain`
+- Look up any UID to see character stats, relic builds and rankings
+- A small microservices setup: a gateway with Discord login, a game data backend, a translation service, and a discovery and admin layer built on Netflix Eureka
+- Data spread across MongoDB, Neo4j and Redis, containerized and self-hosted across two nodes for redundancy and backups
 
-</div>
+**Stack:** `Java` `Spring Boot` `Spring Cloud Gateway` `Netflix Eureka` `React` `Redux` `MongoDB` `Neo4j` `Redis` `Docker` `nginx` `GitHub Actions`
+
+### zandar-env
+> A local AI coding copilot I built to help develop Re:muria
+
+- Ingests all of Re:muria's repos into a vector store, chunked and tagged by file and service
+- Runs as a multi-mode LangGraph agent: a debugging mode that traces issues across services, a builder mode that writes code, and a general Q&A mode
+- Local-first inference through Ollama, with a cloud model as a fallback
+
+**Stack:** `Python` `LangChain` `LangGraph` `ChromaDB` `Ollama`
+
+<br>
+
+*More projects to come, still diversifying.*
