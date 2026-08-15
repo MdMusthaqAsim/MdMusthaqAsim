@@ -34,16 +34,27 @@ I build self-hosted microservices for fun and keep turning a hobby project into 
 ## Projects
 
 ### Re:muria
-> Companion app for Honkai: Star Rail
+> Companion app for Honkai: Star Rail, live at [remuria.net](https://remuria.net)
 
 - Look up any UID to see character stats, relic builds and rankings
 - A small microservices setup: a gateway with Discord login, a game data backend, a translation service, and a discovery and admin layer built on Netflix Eureka
 - Data spread across MongoDB, Neo4j and Redis, containerized and self-hosted across two nodes for redundancy and backups
 
+| Repo | Role |
+|---|---|
+| [Aquila](https://github.com/Amphorous/Aquila) | API gateway + Discord login |
+| [Delta-me13](https://github.com/Amphorous/Delta-me13) | Game data backend |
+| [Delphi](https://github.com/Amphorous/Delphi) | Service discovery + deploy hub |
+| [CelestiaAdmin](https://github.com/Amphorous/CelestiaAdmin) | Monitoring dashboard |
+| [Translator](https://github.com/Amphorous/Translator) | Localization service |
+| [Delta-me13-Frontend](https://github.com/Amphorous/Delta-me13-Frontend) | React frontend |
+
 **Stack:** `Java` `Spring Boot` `Spring Cloud Gateway` `Netflix Eureka` `React` `Redux` `MongoDB` `Neo4j` `Redis` `Docker` `nginx` `GitHub Actions`
 
 ### zandar-env
-> A local AI coding copilot I built to help develop Re:muria
+> Local AI coding copilot I built to help develop Re:muria
+
+**Repo:** [MdMusthaqAsim/zandar-env](https://github.com/MdMusthaqAsim/zandar-env)
 
 - Ingests all of Re:muria's repos into a vector store, chunked and tagged by file and service
 - Runs as a multi-mode LangGraph agent: a debugging mode that traces issues across services, a builder mode that writes code, and a general Q&A mode
