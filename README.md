@@ -1,6 +1,6 @@
 <div align="center">
 
-# Hey, I'm MdMusthaqAsim
+# Hey, I'm Musthaq Asim
 
 Backend-leaning dev who somehow ended up shipping a full React frontend too.
 I build self-hosted microservices for fun and keep turning a hobby project into a real platform.
