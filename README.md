@@ -33,7 +33,7 @@ I build self-hosted microservices for fun and keep turning a hobby project into 
 
 ## Projects
 
-![Re:muria](https://capsule-render.vercel.app/api?type=rounded&color=6C5CE7&height=100&section=header&text=Re%3Amuria&fontSize=32&fontColor=ffffff&fontAlign=12&fontAlignY=38)
+![Re:muria](https://capsule-render.vercel.app/api?type=rounded&color=6C5CE7&height=45&section=header&text=Re%3Amuria&fontSize=16&fontColor=ffffff&fontAlign=12&fontAlignY=42)
 
 [![Live at remuria.net](https://img.shields.io/badge/Live-remuria.net-6C5CE7?style=for-the-badge)](https://remuria.net)
 
@@ -54,7 +54,7 @@ Companion app for Honkai: Star Rail.
 
 <br>
 
-![zandar-env](https://capsule-render.vercel.app/api?type=rounded&color=0984E3&height=100&section=header&text=zandar-env&fontSize=32&fontColor=ffffff&fontAlign=12&fontAlignY=38)
+![zandar-env](https://capsule-render.vercel.app/api?type=rounded&color=0984E3&height=45&section=header&text=zandar-env&fontSize=16&fontColor=ffffff&fontAlign=12&fontAlignY=42)
 
 [![View Repo](https://img.shields.io/badge/Repo-GitHub-0984E3?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MdMusthaqAsim/zandar-env)
 
