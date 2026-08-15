@@ -32,7 +32,7 @@ I build self-hosted microservices for fun and keep turning a hobby project into 
 
 - A companion app for **Honkai: Star Rail**, look up any UID to see character stats, relic builds and rankings
 - Runs as a small set of microservices: a gateway with Discord login, a game data backend, a translation service, and a discovery and admin layer
-- Data spread across MongoDB, Neo4j and Redis, all containerized and self-hosted with a two-node failover setup
+- Data spread across MongoDB, Neo4j and Redis, all containerized and self-hosted across two nodes for redundancy and backups
 - Also wrote my own local AI coding copilot, using LangChain, LangGraph and Ollama, to help build the rest of it
 
 `Java` `Spring Boot` `Spring Cloud Gateway` `React` `Redux` `MongoDB` `Neo4j` `Redis` `Docker` `nginx` `GitHub Actions` `LangChain`
