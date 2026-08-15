@@ -52,5 +52,3 @@ I build self-hosted microservices for fun and keep turning a hobby project into 
 **Stack:** `Python` `LangChain` `LangGraph` `ChromaDB` `Ollama`
 
 <br>
-
-*More projects to come, still diversifying.*
